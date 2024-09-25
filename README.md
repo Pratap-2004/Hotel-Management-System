@@ -1,44 +1,28 @@
-# Hotel Management System
+# Hotel-Management-System
 
-## Description
-Hotel Management System is a web-based application designed for managing room bookings, payments, and user/admin interactions for a hotel. The system ensures a user-friendly experience, integrating features for both users (guests) and hotel administrators.
+Hotel Management System is an important management system for any lodging and boarding enterprise to succeed in business. A fail safe and user friendly system integrated with the concepts of internet and web programming that guarantees data safety and user interactive features that builds trust among a user and the administrator which is fruitful for both the parties involved in the system. A hotel management system developed keeping these factors in mind increases the chances of a successful business substantially. 
 
-## Features
+Tools Used:
+Front-end: HTML, CSS, JavaScript
+Back-end: MySQL, PHP
 
-### User Features:
-- **User Login/Signup**: Users can create an account and log in to manage their bookings.
-- **Room Booking**: Users can book rooms, view room details, and select services.
-- **Booking History**: Users can view their previous bookings.
-- **Room Cancellation**: Users can cancel their room bookings if plans change.
+Screenshots:
+![1](https://user-images.githubusercontent.com/29058362/84313269-e9cfda00-ab83-11ea-9b35-ca3ff7b75708.JPG)
+![2](https://user-images.githubusercontent.com/29058362/84313303-f6543280-ab83-11ea-9845-d8e912f66686.JPG)
 
-### Admin Features:
-- **Admin Login/Signup**: Admins can manage room bookings, add or remove rooms, and confirm or deny booking requests.
-- **Room Management**: Admins can modify room details, manage room statuses, and oversee all bookings.
-- **Booking Confirmation**: Admins can confirm room bookings and process payments.
+Features:
+1. User Login: This contains all the tools and options required by any user who's willing to book a hotel room.
+2. Admin Login: This contains all the controls that an administrator has to manage the hotel including adding and deleting rooms.
+3. Image Gallery: This contains image gallery of the rooms in the hotel.
+4. Room Brochure: This is room rate card.
+5. Room Booking History: This is the previous room bookings history stored for future references.
 
-### Additional Features:
-- **Image Gallery**: Displays images of the hotel rooms.
-- **Room Brochure**: Shows the room rate card and details.
-- **Payment Gateway**: Integrated payment options for users to complete the booking.
+Working:
+1. A new user sign up and creates a new account. Then the user logins using the email and password.
+2. After logging in, user books a room.
+3. The room booking request is sent to hotel administrator. This is the admin job to either confirm or delete the request. User can also delete his/her room booking request if any changes in plan happens.
+4. After the room is confirmed, user will get an option to pay the amount as per the services. 
+5. After the user checks out, user will pay the amount and an entry will be made to room booking history.
+6. If any change to plans happens and user opts to extend his stay at the hotel, there is an option available to extend the check out date.
 
-## Tools Used
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL (Database file: `iwp.sql`)
-
-## Working of the System
-
-1. A new user signs up and logs in using their email and password.
-2. The user books a room, and the request is sent to the hotel administrator.
-3. The admin either confirms or deletes the booking request. Users can also delete their requests.
-4. Once confirmed, users can pay for the room.
-5. After check-out, payment is finalized, and the booking is added to the history.
-6. Users can extend their stay if needed, with an option to modify the check-out date.
-
-
-## How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Hotel-Management-System.git
-
+Database file name is iwp.sql. And it is also uploaded.
