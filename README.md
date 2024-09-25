@@ -41,4 +41,4 @@ Hotel Management System is a web-based application designed for managing room bo
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Hotel-Management-System.git
-# Hotel-Management-System
+
