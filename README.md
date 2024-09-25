@@ -35,9 +35,6 @@ Hotel Management System is a web-based application designed for managing room bo
 5. After check-out, payment is finalized, and the booking is added to the history.
 6. Users can extend their stay if needed, with an option to modify the check-out date.
 
-## Screenshots
-![Login Page](Images/screenshot1.png)
-![Booking Page](Images/screenshot2.png)
 
 ## How to Run the Project
 
